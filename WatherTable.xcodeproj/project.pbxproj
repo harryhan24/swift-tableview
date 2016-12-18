@@ -12,6 +12,11 @@
 		307AF22D1E06FA730038EFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307AF22B1E06FA730038EFB3 /* Main.storyboard */; };
 		307AF22F1E06FA730038EFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307AF22E1E06FA730038EFB3 /* Assets.xcassets */; };
 		307AF2321E06FA730038EFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307AF2301E06FA730038EFB3 /* LaunchScreen.storyboard */; };
+		307AF23F1E06FAAB0038EFB3 /* blizzard.png in Resources */ = {isa = PBXBuildFile; fileRef = 307AF23A1E06FAAB0038EFB3 /* blizzard.png */; };
+		307AF2401E06FAAB0038EFB3 /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 307AF23B1E06FAAB0038EFB3 /* cloudy.png */; };
+		307AF2411E06FAAB0038EFB3 /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 307AF23C1E06FAAB0038EFB3 /* rainy.png */; };
+		307AF2421E06FAAB0038EFB3 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 307AF23D1E06FAAB0038EFB3 /* snow.png */; };
+		307AF2431E06FAAB0038EFB3 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 307AF23E1E06FAAB0038EFB3 /* sunny.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		307AF22E1E06FA730038EFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		307AF2311E06FA730038EFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		307AF2331E06FA730038EFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307AF23A1E06FAAB0038EFB3 /* blizzard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blizzard.png; path = "../../../../Downloads/Section-12-2.WeatherTableImages/blizzard.png"; sourceTree = "<group>"; };
+		307AF23B1E06FAAB0038EFB3 /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy.png; path = "../../../../Downloads/Section-12-2.WeatherTableImages/cloudy.png"; sourceTree = "<group>"; };
+		307AF23C1E06FAAB0038EFB3 /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainy.png; path = "../../../../Downloads/Section-12-2.WeatherTableImages/rainy.png"; sourceTree = "<group>"; };
+		307AF23D1E06FAAB0038EFB3 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow.png; path = "../../../../Downloads/Section-12-2.WeatherTableImages/snow.png"; sourceTree = "<group>"; };
+		307AF23E1E06FAAB0038EFB3 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunny.png; path = "../../../../Downloads/Section-12-2.WeatherTableImages/sunny.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		307AF2261E06FA720038EFB3 /* WatherTable */ = {
 			isa = PBXGroup;
 			children = (
+				307AF2391E06FA7F0038EFB3 /* Resource */,
 				307AF2271E06FA730038EFB3 /* AppDelegate.swift */,
 				307AF2291E06FA730038EFB3 /* ViewController.swift */,
 				307AF22B1E06FA730038EFB3 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				307AF2331E06FA730038EFB3 /* Info.plist */,
 			);
 			path = WatherTable;
+			sourceTree = "<group>";
+		};
+		307AF2391E06FA7F0038EFB3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				307AF23A1E06FAAB0038EFB3 /* blizzard.png */,
+				307AF23B1E06FAAB0038EFB3 /* cloudy.png */,
+				307AF23C1E06FAAB0038EFB3 /* rainy.png */,
+				307AF23D1E06FAAB0038EFB3 /* snow.png */,
+				307AF23E1E06FAAB0038EFB3 /* sunny.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +147,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				307AF2321E06FA730038EFB3 /* LaunchScreen.storyboard in Resources */,
+				307AF2431E06FAAB0038EFB3 /* sunny.png in Resources */,
+				307AF2411E06FAAB0038EFB3 /* rainy.png in Resources */,
+				307AF23F1E06FAAB0038EFB3 /* blizzard.png in Resources */,
 				307AF22F1E06FA730038EFB3 /* Assets.xcassets in Resources */,
+				307AF2401E06FAAB0038EFB3 /* cloudy.png in Resources */,
+				307AF2421E06FAAB0038EFB3 /* snow.png in Resources */,
 				307AF22D1E06FA730038EFB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
